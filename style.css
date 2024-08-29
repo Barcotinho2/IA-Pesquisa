@@ -2,16 +2,15 @@
 
 :root {
     --cor-fundo: #71b5f0;
-    --cor-principal: #17217a ;
-    --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-principal: #1c0da0 ;
+    --cor-secundaria: #4176bb;
+    --cor-destaque: #e9dd33;
+    --cor-texto: #f5f7d8;
 }
   
 body {
-   
-    background: url("ia.jpg") no-repeat;
-
+    background: var(--cor-fundo) url("ia.jpg") no-repeat center;
+    background-size: 1900px 960px;
     color: var(--cor-texto);
     font-family: 'Inter', sans-serif;
     display: flex;
@@ -31,6 +30,7 @@ body {
 
 h1, .caixa-perguntas, .caixa-resultado{
     font-family: 'Chakra Petch', sans-serif;
+    margin-bottom: 20px;
 }
 
 h1 {
